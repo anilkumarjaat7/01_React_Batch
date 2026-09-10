@@ -1,14 +1,17 @@
 function Navbar() {
   return (
-    <div className="">
-      <h1>Dezi</h1>
-      <ul>
-        <li>Home</li>
-        <li>Service</li>
-        <li>Contact</li>
-        <li>About</li>
+      <nav className="navbar">
+      <div className="logo">
+        MyWebsite
+      </div>
+
+      <ul className="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Courses</a></li>
+        <li><a href="/">Contact</a></li>
       </ul>
-    </div>
+    </nav>
   );
 }
 

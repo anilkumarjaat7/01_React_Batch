@@ -1,9 +1,8 @@
 function Footer() {
   return (
-    <div className="">
-      <p>Hello i am Footer component </p>
-      <p>All right resived</p>
-    </div>
+    <footer className="footer">
+      <p>© 2026 MyWebsite. All Rights Reserved.</p>
+    </footer>
   );
 }
 
