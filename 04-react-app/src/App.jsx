@@ -1,5 +1,6 @@
 // import Tree from "./assets/tree.png";
 import Hero from "./componens/Hero.jsx";
+import Num from "./componens/Num.jsx";
 
 // Hooks  useState
 
@@ -10,6 +11,8 @@ function App() {
     <div className="">
       <h1>React Hook</h1>
       <Hero />
+
+      <Num />
 
       {/* <h1>Hello every one my name : {name}</h1>
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxrWsdJFvBx8g6CtZnXj9S9xcOtMmEysWTAz1M-HSrxg&s=10" />
